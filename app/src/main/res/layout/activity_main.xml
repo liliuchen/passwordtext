@@ -16,7 +16,7 @@
         android:textSize="16sp"
         app:prt_length="8"
         app:prt_rectangle_color_focus="#F00"
-        app:prt_proclaimed_show="true"
+        app:prt_proclaimed_show="false"
         app:prt_margin="10dp" />
 
 </android.support.constraint.ConstraintLayout>

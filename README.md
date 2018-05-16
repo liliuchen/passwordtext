@@ -33,7 +33,7 @@
      </declare-styleable>
  
  ```
- ####Add it in your root build.gradle at the end of repositories:
+ ###Add it in your root build.gradle at the end of repositories:
  
  
  ```groovy
@@ -47,7 +47,7 @@
  	
  
  ```
- ####Add the dependency
+ ###Add the dependency
  ```groovy
  dependencies {
  	        implementation 'com.github.liliuchen:passwordtext:v0.0.2'
