@@ -6,7 +6,6 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
-import android.support.annotation.Nullable;
 import android.text.Editable;
 import android.text.InputFilter;
 import android.text.TextUtils;
@@ -19,21 +18,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author Administrator
- * @package com.example.administrator.sampledemo
- * @fileName RectPasswordText
- * @date 2018/4/27.
- * @emial 871898381@qq.com
- * @describe TODO
- * @company 棋至文化广播有限责任公司
- */
-
-public class RectPasswordText extends android.support.v7.widget.AppCompatTextView implements ActionMode.Callback {
+public class RectPasswordText extends TextView implements ActionMode.Callback {
 
     private Paint mFocusPaint;
     private Paint mNoFocusPaint;
@@ -59,11 +49,11 @@ public class RectPasswordText extends android.support.v7.widget.AppCompatTextVie
         this(context, null);
     }
 
-    public RectPasswordText(Context context, @Nullable AttributeSet attrs) {
+    public RectPasswordText(Context context,  AttributeSet attrs) {
         this(context, attrs, R.attr.rectanglePasswordTextStyle);
     }
 
-    public RectPasswordText(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public RectPasswordText(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.RectPasswordText);
         mBorderWidth = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 1F, getResources().getDisplayMetrics());
