@@ -1,5 +1,9 @@
 # passwordtext 是一个特殊的输入框，和EditText很像，但是它具有方格分割内容，适用于密码、验证码等分割显示
 [![](https://jitpack.io/v/liliuchen/passwordtext.svg)](https://jitpack.io/#liliuchen/passwordtext)
+![](https://github.com/liliuchen/passwordtext/blob/master/app/Screenshots/23456.gif)
+![](https://github.com/liliuchen/passwordtext/blob/master/app/Screenshots/234562.gif)
+ 
+
 ```xml
  <com.lucenlee.library.RectPasswordText
         android:layout_width="match_parent"
@@ -54,5 +58,3 @@
  	}
  ```
  
- 
-
