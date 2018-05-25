@@ -1,0 +1,37 @@
+<resources>
+    <declare-styleable name="LineView">
+        <attr name="lv_line_start_color" format="color" />
+        <attr name="lv_line_end_color" format="color" />
+        <!--线的类型-->
+        <attr name="lv_line_style">
+            <!--圆形虚线-->
+            <flag name="circleImaginary" value="0" />
+            <!--矩形虚线-->
+            <flag name="rectangularImaginary" value="1" />
+            <!--平行四边形-->
+            <flag name="rhomboidImaginary" value="2" />
+            <!--线点交替-->
+            <flag name="linePointImaginary" value="4" />
+            <!--线正方形交替-->
+            <flag name="lineSquareImaginary" value="5" />
+            <!--线点点交替-->
+            <flag name="lineDoublePointImaginary" value="6" />
+            <!--单实线-->
+            <flag name="singleFullLine" value="8" />
+            <!--双实线-->
+            <flag name="doubleFullLine" value="9" />
+            <!--自定义-->
+            <flag name="customLine" value="10" />
+        </attr>
+        <!--自定义形状，当lv_line_style为自定义时，才会生效-->
+        <attr name="lv_custom_shape" format="reference" />
+        <!--绘制方向-->
+        <attr name="lv_orientation">
+            <flag name="horizontal" value="0" />
+            <flag name="vertical" value="1" />
+        </attr>
+
+    </declare-styleable>
+
+    <attr name="LineView" format="reference" />
+</resources>

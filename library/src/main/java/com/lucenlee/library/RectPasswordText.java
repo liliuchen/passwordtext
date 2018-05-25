@@ -37,7 +37,7 @@ public class RectPasswordText extends TextView implements ActionMode.Callback {
     //矩形之间的间隔
     private int mRectMargin = 0;
     //边框宽度
-    private int mBorderWidth;
+    private float mBorderWidth;
     //测量总高度
     private int mMeasuredHeight;
     //测量总宽度
@@ -75,7 +75,7 @@ public class RectPasswordText extends TextView implements ActionMode.Callback {
                 mNoFocusColor = a.getColor(index, mNoFocusColor);
 
             } else if (index == R.styleable.RectPasswordText_prt_border_width) {
-                mBorderWidth = a.getColor(index, mBorderWidth);
+                mBorderWidth = a.getDimension(index, mBorderWidth);
 
             }
 

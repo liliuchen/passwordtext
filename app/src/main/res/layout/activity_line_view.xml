@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.sampledemo.MainActivity">
+
+    <com.lucenlee.library.LineView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        app:lv_line_start_color="#F00"
+        app:lv_line_end_color="#0F0"
+        app:lv_line_style="circleImaginary"
+        app:lv_orientation="horizontal" />
+
+    <com.lucenlee.library.LineView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="5dp"
+        app:lv_line_start_color="#F00"
+        app:lv_line_end_color="#0F0"
+        app:lv_line_style="rhomboidImaginary"
+        app:lv_orientation="horizontal" />
+
+    <com.lucenlee.library.LineView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="5dp"
+        app:lv_line_start_color="#F00"
+        app:lv_line_end_color="#0F0"
+        app:lv_line_style="rectangularImaginary"
+        app:lv_orientation="horizontal" />
+    <com.lucenlee.library.LineView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="5dp"
+        app:lv_line_start_color="#F00"
+        app:lv_line_end_color="#0F0"
+        app:lv_line_style="linePointImaginary"
+        app:lv_orientation="horizontal" />
+    <com.lucenlee.library.LineView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="5dp"
+        app:lv_line_start_color="#F00"
+        app:lv_line_end_color="#0F0"
+        app:lv_line_style="lineSquareImaginary"
+        app:lv_orientation="horizontal" />
+    <com.lucenlee.library.LineView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="5dp"
+        app:lv_line_start_color="#F00"
+        app:lv_line_end_color="#0F0"
+        app:lv_line_style="lineDoublePointImaginary"
+        app:lv_orientation="horizontal" />
+    <com.lucenlee.library.LineView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="5dp"
+        app:lv_line_start_color="#F00"
+        app:lv_line_end_color="#0F0"
+        app:lv_line_style="singleFullLine"
+        app:lv_orientation="horizontal" />
+    <com.lucenlee.library.LineView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="5dp"
+        app:lv_line_start_color="#F00"
+        app:lv_line_end_color="#0F0"
+        app:lv_line_style="doubleFullLine"
+        app:lv_orientation="horizontal" />
+    <com.lucenlee.library.LineView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="5dp"
+        app:lv_line_start_color="#F00"
+        app:lv_line_end_color="#0F0"
+        app:lv_custom_shape="@mipmap/ic_launcher"
+        app:lv_line_style="customLine"
+        app:lv_orientation="horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <com.lucenlee.library.LineView
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            app:lv_line_start_color="#F00"
+            app:lv_line_end_color="#0F0"
+            app:lv_line_style="circleImaginary"
+            app:lv_orientation="vertical" />
+
+        <com.lucenlee.library.LineView
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            app:lv_line_start_color="#F00"
+            app:lv_line_end_color="#0F0"
+            app:lv_line_style="rhomboidImaginary"
+            app:lv_orientation="vertical" />
+
+        <com.lucenlee.library.LineView
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            app:lv_line_start_color="#F00"
+            app:lv_line_end_color="#0F0"
+            app:lv_line_style="rectangularImaginary"
+            app:lv_orientation="vertical" />
+        <com.lucenlee.library.LineView
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            app:lv_line_start_color="#F00"
+            app:lv_line_end_color="#0F0"
+            app:lv_line_style="linePointImaginary"
+            app:lv_orientation="vertical" />
+        <com.lucenlee.library.LineView
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            app:lv_line_start_color="#F00"
+            app:lv_line_end_color="#0F0"
+            app:lv_line_style="lineSquareImaginary"
+            app:lv_orientation="vertical" />
+        <com.lucenlee.library.LineView
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            app:lv_line_start_color="#F00"
+            app:lv_line_end_color="#0F0"
+            app:lv_line_style="lineDoublePointImaginary"
+            app:lv_orientation="vertical" />
+        <com.lucenlee.library.LineView
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            app:lv_line_start_color="#F00"
+            app:lv_line_end_color="#0F0"
+            app:lv_line_style="singleFullLine"
+            app:lv_orientation="vertical" />
+        <com.lucenlee.library.LineView
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            app:lv_line_start_color="#CCCCCC"
+            app:lv_line_end_color="#CCCCCC"
+            app:lv_line_style="doubleFullLine"
+            app:lv_orientation="vertical" />
+        <com.lucenlee.library.LineView
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            app:lv_line_start_color="#F00"
+            app:lv_line_end_color="#0F0"
+            app:lv_custom_shape="@mipmap/ic_launcher"
+            app:lv_line_style="customLine"
+            app:lv_orientation="vertical" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
