@@ -1,6 +1,8 @@
 <resources>
     <declare-styleable name="LineView">
+        <!--起始颜色-->
         <attr name="lv_line_start_color" format="color" />
+        <!--结束颜色-->
         <attr name="lv_line_end_color" format="color" />
         <!--线的类型-->
         <attr name="lv_line_style">
