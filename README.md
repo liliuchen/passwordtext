@@ -110,7 +110,7 @@
  ###Add the dependency
  ```groovy
  dependencies {
- 	        implementation 'com.github.liliuchen:passwordtext:v0.0.2'
+ 	        implementation 'com.github.liliuchen:passwordtext:latest'
  	}
  ```
  
